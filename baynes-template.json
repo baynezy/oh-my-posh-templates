@@ -8,7 +8,8 @@
 			"background": "#c386f1",
 			"foreground": "#ffffff",
 			"leading_diamond": "\ue0b6",
-			"style": "diamond",
+			"powerline_symbol": "\ue0b0",
+			"style": "powerline",
 			"template": " {{ .UserName }} ",
 			"trailing_diamond": "\ue0b0",
 			"type": "session"
@@ -160,7 +161,7 @@
 			},
 			"style": "diamond",
 			"template": "<parentBackground>\ue0b0</> \ue23a ",
-			"trailing_diamond": "\ue0b4",
+			"trailing_diamond": "\ue0b0",
 			"type": "status"
 		  }
 		],
@@ -173,7 +174,7 @@
 			"foreground": "#111111",
 			"invert_powerline": true,
 			"style": "plain",
-			"template": "<#2e9599,transparent>\ue0b6</> {{ .CurrentDate | date .Format }} ",
+			"template": "<#2e9599,transparent>\ue0b2</> {{ .CurrentDate | date .Format }} ",
 			"trailing_diamond": "\ue0b4",
 			"type": "time"
 		  }
